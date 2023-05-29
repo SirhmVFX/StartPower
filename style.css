@@ -18,4 +18,13 @@ input, textarea, button, a{
     text-decoration: none;
 }
 
-/* CSS  */
+/* CSS  VARIABLES*/
+:root{
+    --ff: 'Open Sans', sans-serif;
+
+    --color-1: #0C111F;
+    --color-2: #F5B100;
+    --color-3: #7723FE;
+
+    --h1: clamp();
+}
