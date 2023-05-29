@@ -8,3 +8,14 @@
     box-sizing: border-box;
     font-family: var(--ff);
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+input, textarea, button, a{
+    font: inherit;
+    text-decoration: none;
+}
+
+/* CSS  */
