@@ -26,5 +26,13 @@ input, textarea, button, a{
     --color-2: #F5B100;
     --color-3: #7723FE;
 
-    --h1: clamp();
+    --h1: clamp(70px, 5rem, 80px);
+    --h2: clamp(54px, 5rem, 64px);
+    --h3: clamp(38px, 5rem, 48px);
+    --h4: clamp(18px, 5rem, 24px);
+    --p: clamp(12px, 5rem, 20px);
 }
+
+/* END OF CSS VARIABLES */
+
+/* UTILITY CLASSES */
