@@ -64,6 +64,8 @@ p {
 .container{
     width: min(1400px, 90%);
     margin-inline: auto;
+    display: flex;
+    padding: 1.5rem;
 }
 
 .button1 {
@@ -92,9 +94,12 @@ nav{
     display: flex;
     width: 30%;
     justify-content: space-between;
+    display: none;
 }
 
 .nav_menu li {
     list-style: none;
     padding: 1rem;
 }
+
+
