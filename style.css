@@ -84,4 +84,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem;
+}
+
+.nav_menu {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.nav_menu li {
+    
 }
