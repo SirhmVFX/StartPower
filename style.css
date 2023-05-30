@@ -16,6 +16,7 @@ html{
 input, textarea, button, a{
     font: inherit;
     text-decoration: none;
+    color: inherit;
 }
 
 /* CSS  VARIABLES*/
@@ -94,5 +95,6 @@ nav{
 }
 
 .nav_menu li {
-    
+    list-style: none;
+    padding: 1rem;
 }
