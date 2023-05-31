@@ -28,7 +28,7 @@ input, textarea, button, a{
     --color-3: #7723FE;
     --white: white;
 
-    --h1: clamp(70px, 5rem, 80px);
+    --h1: clamp(70px, 5rem, 60px);
     --h2: clamp(54px, 5rem, 64px);
     --h3: clamp(38px, 5rem, 48px);
     --h4: clamp(18px, 5rem, 24px);
@@ -40,7 +40,7 @@ input, textarea, button, a{
 /* UTILITY CLASSES */
 h1 {
     font-size: var(--h1);
-    font-weight: 800;
+    font-weight: 600;
 }
 
 h2 {
@@ -65,11 +65,16 @@ p {
 .container{
     width: min(1400px, 90%);
     margin-inline: auto;
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
     padding: 1.5rem;
-    gap: 2rem;
+    gap: 3rem;
     align-items: center;
+    justify-content: center;
 }
+
+.container
 
 .button1 {
     padding: .7rem 1.3rem;
@@ -119,6 +124,7 @@ nav{
 
 .heroimg {
     width: 70%;
+    background-color: #7723FE;
 }
 
 
