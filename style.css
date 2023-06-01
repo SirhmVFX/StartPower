@@ -16,7 +16,6 @@ html{
 input, textarea, button, a{
     font: inherit;
     text-decoration: none;
-    color: inherit;
 }
 
 /* CSS  VARIABLES*/
@@ -123,8 +122,19 @@ nav{
 }
 
 .heroimg {
-    width: 70%;
-    background-color: #7723FE;
+    width: 80%;
+}
+
+.heroside1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+} 
+
+.herobtn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 
