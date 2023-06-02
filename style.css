@@ -108,7 +108,7 @@ p {
     padding: 1.5rem;
 }
 
-.icon1 {
+.icon2 {
     width: 70px;
     height: 70px;
     border-radius: 50px;
@@ -127,6 +127,10 @@ p {
     flex-direction: column;
     gap: 2rem;    
 } 
+
+.svg {
+    width: 20px;
+}
 
 /* general styles */
 
@@ -201,11 +205,22 @@ nav{
     justify-content: space-between;
     gap: 6rem;
     margin-bottom: 2rem;
+    align-items: center;
 }
 
 .clickbtn {
     display: flex;
     gap: 1rem;
+}
+
+.categories_list {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    overflow: hidden;
+    gap: 2rem;
+    scroll-behavior: smooth;
+    width: 1300px;
 }
 
 .categories {
