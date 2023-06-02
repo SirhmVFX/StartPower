@@ -98,6 +98,14 @@ p {
     padding: 1.5rem;
 }
 
+.icon1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #f1eafb;
+    padding: .5rem;
+}
+
 .side2 {
     display: flex;
     flex-direction: column;
@@ -178,4 +186,30 @@ nav{
     margin-bottom: 1rem;    
 }
 
+.discover {
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.clickbtn {
+    display: flex;
+    gap: 1rem;
+}
+
+.categories {
+    width: 400px;
+    border-radius: 50px;
+}
+
+.cat_img {
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 0px 10px 20px rgb(208, 208, 208);
+}
+.cat_cont {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
