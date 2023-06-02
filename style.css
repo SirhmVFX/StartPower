@@ -91,6 +91,16 @@ p {
     font-weight: 600;
 }
 
+.button2 {
+    padding: .5rem 1.5rem;
+    background-image: linear-gradient(35deg, #8482FF ,#7723FE);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+}
+
 .icon1 {
     width: 100px;
     border-radius: 50px;
@@ -190,6 +200,7 @@ nav{
     display: flex;
     justify-content: space-between;
     gap: 6rem;
+    margin-bottom: 2rem;
 }
 
 .clickbtn {
@@ -213,3 +224,12 @@ nav{
     gap: 1rem;
 }
 
+
+.cat_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1eafb;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+}
