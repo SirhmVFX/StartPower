@@ -45,12 +45,13 @@ img{
 /* UTILITY CLASSES */
 h1 {
     font-size: var(--h1);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h2 {
     font-size: var(--h2);
     font-weight: 600;
+    line-height: 1.2;
 }
 
 h3 {
@@ -125,7 +126,7 @@ p {
 .heroside1 {
     display: flex;
     flex-direction: column;
-    gap: 2rem;    
+    gap: 2rem;   
 } 
 
 .svg {
@@ -247,4 +248,13 @@ nav{
     background-color: #f1eafb;
     padding: 1rem;
     border-radius: 0 0 1rem 1rem;
+}
+
+.newsletter {
+    background-color: var(--color-1);
+    color: var(--white);
+}
+
+.newsletter h2, .newsletter p{
+    margin-bottom: 1.5rem;
 }
