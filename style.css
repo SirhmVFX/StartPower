@@ -304,12 +304,30 @@ nav{
     border: 1px solid black;
 }
 
+.ft {
+    background-color: #f1eafb;
+}
 footer {
     width: min(1400px, 80%);
-    background-color: #f1eafb;
-    padding: 2rem;
+    margin-inline: auto;
+    padding: 4rem;
 }
 
+.mnft {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 3fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.mnft h4 {
+    margin-bottom: 1rem;
+}
+
+.mnft li {
+    list-style: none;
+    line-height: 1.8;
+}
 
 
 
