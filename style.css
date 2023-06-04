@@ -304,6 +304,12 @@ nav{
     border: 1px solid black;
 }
 
+footer {
+    width: min(1400px, 80%);
+    background-color: #f1eafb;
+    padding: 2rem;
+}
+
 
 
 
