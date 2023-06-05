@@ -160,7 +160,15 @@ nav{
 
 .hamburger {
     display: block;
-    
+    cursor: pointer;
+
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin-block: .5rem;
 }
 
 .nav_menu li {
@@ -331,6 +339,7 @@ footer {
 
 @media (min-width: 80rem) {
     .container{
+        
         grid-auto-flow: column;
         padding: 4rem;
     }
@@ -347,7 +356,7 @@ footer {
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
-        width: 1400px;
+        width: 1300px;
         overflow: hidden;
         scroll-behavior: smooth;
         justify-content: left;
