@@ -33,7 +33,7 @@ img{
     --color-3: #7723FE;
     --white: white;
 
-    --h1: clamp(70px, 5rem, 60px);
+    --h1: clamp(60px, 5rem, 70px);
     --h2: clamp(54px, 5rem, 64px);
     --h3: clamp(38px, 5rem, 48px);
     --h4: clamp(18px, 5rem, 24px);
@@ -73,9 +73,9 @@ p {
     width: min(1400px, 80%);
     margin-inline: auto;
     display: grid;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
     grid-auto-columns: 1fr;
-    padding: 4rem;
+    padding: 5rem 1rem;
     gap: 3rem;
     align-items: center;
     justify-content: center;
@@ -156,7 +156,7 @@ nav{
     display: flex;
     width: 40%;
     justify-content: space-between;
-    /* display: none; */
+    display: none;
 }
 
 .hamburger {
@@ -327,6 +327,13 @@ footer {
 .mnft li {
     list-style: none;
     line-height: 1.8;
+}
+
+@media (min-width: 80rem) {
+    .container{
+        grid-auto-flow: column;
+        padding: 4rem;
+    }
 }
 
 
