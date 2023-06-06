@@ -149,13 +149,35 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+
 }
 
 .nav_menu {
+    position: absolute;
     display: flex;
-    width: 40%;
+    flex-direction: column;
+    width: 100%;
     justify-content: space-between;
-    display: none;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    color: #0C111F;
+    background-color: white;
+    padding: 3rem;
+    height: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+.is-active{
+    height: 300px;
+    opacity: 1;
+    transition: .4s;
+}
+
+.nav_menu li {
+    list-style: none;
+    padding: .7rem 1.3rem;
 }
 
 .hamburger {
@@ -171,10 +193,6 @@ nav{
     margin-block: .5rem;
 }
 
-.nav_menu li {
-    list-style: none;
-    padding: .7rem 1.3rem;
-}
 
 .nav_menu li:hover {
     background-color: #F5B100;
@@ -347,8 +365,14 @@ footer {
     }
 
     .nav_menu {
+        width: 40%;
+        justify-content: space-between;
         display: flex;
     }
+
+
+
+
     .discover {
         flex-direction: row;
         gap: 6rem;
