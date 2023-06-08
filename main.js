@@ -6,8 +6,10 @@ hamburger.addEventListener("click", ()=>{
 
 
 const arrowbutns = document.querySelectorAll(".clickbtn button") 
+const categories = document.querySelector(".categories_list")
+const firstcardwidth = categories.querySelector(".categories").offsetWidth;
 arrowbutns.forEach(btn => {
     btn.addEventListener("click", ()=>{
-        console.log(btn.id)
+        categories.scrollLeft += btn.id === "left" ? -firstcardwidth : firstcardwidth
     })
 })
