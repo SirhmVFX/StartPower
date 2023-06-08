@@ -169,7 +169,7 @@ nav{
     transition: .4s;
 }
 
-.is-active{
+.nav_menu.is-active{
     height: 300px;
     opacity: 1;
     transition: .4s;
