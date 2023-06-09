@@ -19,6 +19,6 @@ const rvCont = document.querySelector(".review_container")
 const rvwidth = rvCont.querySelector(".review_cont").offsetWidth;
 bttnn.forEach(bts => {
     bts.addEventListener("click", ()=>{
-    rvCont.scrollTop += bts.id === "up" ? -rvwidth : rvwidth
+    rvCont.scrollTop += bts.id === "up" ? -rvwidth : rvwidth;
 })
 })

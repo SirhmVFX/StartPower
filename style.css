@@ -423,7 +423,7 @@ footer {
     }
 
     .review_container {
-        height: 400px;
+        height: 300px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
