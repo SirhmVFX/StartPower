@@ -13,3 +13,12 @@ arrowbutns.forEach(btn => {
         categories.scrollLeft += btn.id === "left" ? -firstcardwidth : firstcardwidth
     })
 })
+
+const bttnn = document.querySelectorAll(".rv__btn button")
+const rvCont = document.querySelector(".review_container")
+const rvwidth = rvCont.querySelector(".review_cont").offsetWidth;
+bttnn.forEach(bts => {
+    bts.addEventListener("click", ()=>{
+    rvCont.scrollTop += bts.id === "up" ? -rvwidth : rvwidth
+})
+})
