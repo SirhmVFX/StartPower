@@ -302,11 +302,38 @@ nav{
 }
 
 .resss{
-    padding: 2rem;
+    padding: 4rem;
     width: 800px;
     background-color: var(--white);
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(34, 34, 34, 0.176);
+}
+
+.resss h4{
+    margin-bottom: 2rem;
+}
+
+form {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 600px;
+    gap: 2rem;
+}
+
+
+
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.formElement input {
+    padding: .8rem;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .reserve {
