@@ -323,6 +323,11 @@ form {
     overflow: hidden;
 }
 
+.noof {
+    display: flex;
+    gap: 2rem;
+}
+
 
 
 
