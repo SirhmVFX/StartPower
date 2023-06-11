@@ -317,8 +317,8 @@ nav{
 
 form {
     display: grid;
-    /* grid-auto-flow: column; */
-    /* grid-auto-columns: 600px; */
+    grid-auto-flow: column;
+    grid-auto-columns: 600px;
     gap: 2rem;
     overflow: hidden;
 }
@@ -328,7 +328,9 @@ form {
     gap: 2rem;
 }
 
-
+textarea {
+    padding: 1rem;
+}
 
 
 .formElement {

@@ -22,3 +22,14 @@ bttnn.forEach(bts => {
     rvCont.scrollTop += bts.id === "up" ? -rvwidth : rvwidth;
 })
 })
+
+
+
+// RESERVE
+
+const reserve = document.querySelector(".resss")
+
+const firstNextbtn = document.getElementById("firstNextBtn")
+firstNextbtn.addEventListener("click", ()=>{
+    reserve.style.marginLeft = "-25%";
+})
