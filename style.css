@@ -300,11 +300,14 @@ nav{
     justify-content: center;
     align-items: center;
     display: none;
+    transition: .4s;
+    
 
 }
 
-.reservation-div.isac-active {
-    display: block;
+.reservation-div.is-active {
+    display: flex;
+    transition: .4s;
 }
 
 .resss{
