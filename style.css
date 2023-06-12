@@ -203,6 +203,14 @@ nav{
 .herosection {
     background-color: var(--color-1);
     color: var(--white);
+    background-image: url(./images/hyee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 100vh;
+    display: flex;
+    
+
 }
 
 .heroimg {
