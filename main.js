@@ -46,7 +46,10 @@ const back = document.getElementById("backtohome")
 const svg = document.getElementById("svg")
 
 
-next1.addEventListener("click", function() {
+
+
+next1.addEventListener("click", function(event) {
+    event.preventDefault()
     reswidth.style.marginLeft = "-25%"
 })
 
