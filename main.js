@@ -43,6 +43,7 @@ const rsvp = document.getElementById("rsvp")
 const reservation = document.querySelector(".reservation-div")
 
 const back = document.getElementById("backtohome")
+const svg = document.getElementById("svg")
 
 
 next1.addEventListener("click", function() {
@@ -70,6 +71,10 @@ book.addEventListener("click", function(){
 })
 
 back.addEventListener("click", function() {
+    reservation.classList.toggle("is-active")
+})
+
+svg.addEventListener("click", function() {
     reservation.classList.toggle("is-active")
 })
 
