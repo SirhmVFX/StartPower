@@ -289,7 +289,7 @@ nav{
     display: none;
 }
 
-.r {
+.reservation-div {
     background-color: #0c111f55;
     position: fixed;
     top: 0;
@@ -299,6 +299,12 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
+
+}
+
+.reservation-div.isac-active {
+    display: block;
 }
 
 .resss{
@@ -407,6 +413,13 @@ footer {
     width: min(1400px, 80%);
     margin-inline: auto;
     padding: 4rem;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .mnft {
