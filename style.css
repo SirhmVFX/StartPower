@@ -207,10 +207,14 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     
 
+}
+
+.mg-bd {
+    border-radius: 20px;
 }
 
 .heroimg {
