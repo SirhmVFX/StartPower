@@ -39,6 +39,7 @@ const next3 = document.getElementById("next2")
 const submit = document.getElementById("submit")
 
 const book = document.getElementById("book")
+const rsvp = document.getElementById("rsvp")
 const reservation = document.querySelector(".reservation-div")
 
 const back = document.getElementById("backtohome")
@@ -69,5 +70,9 @@ book.addEventListener("click", function(){
 })
 
 back.addEventListener("click", function() {
+    reservation.classList.toggle("is-active")
+})
+
+rsvp.addEventListener("click", function(){
     reservation.classList.toggle("is-active")
 })
