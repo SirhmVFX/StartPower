@@ -36,6 +36,8 @@ const next2 = document.getElementById("next2")
 const prev2 = document.getElementById("prev2")
 const next3 = document.getElementById("next2")
 
+const submit = document.getElementById("submit")
+
 
 
 next1.addEventListener("click", function() {
@@ -52,4 +54,8 @@ next2.addEventListener("click", function() {
 
 prev2.addEventListener("click", function() {
     reswidth.style.marginLeft = "-25%"
+})
+
+submit.addEventListener("click", function() {
+    reswidth.style.marginLeft = "-75%"
 })
