@@ -320,7 +320,7 @@ form {
     grid-auto-flow: column;
     grid-auto-columns: 600px;
     gap: 2rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .noof {

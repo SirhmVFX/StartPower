@@ -26,10 +26,22 @@ bttnn.forEach(bts => {
 
 
 // RESERVE
+const next1 = document.getElementById("next1")
+const reswidth = document.querySelector(".page")
+const form = document.getElementById("form")
 
-const reserve = document.querySelector(".resss")
+const prev1 = document.getElementById("prev1")
+const next2 = document.getElementById("next2")
 
-const firstNextbtn = document.getElementById("firstNextBtn")
-firstNextbtn.addEventListener("click", ()=>{
-    reserve.style.marginLeft = "-25%";
+
+next1.addEventListener("click", function() {
+    form.style.marginLeft = "-95%"
+})
+
+prev1.addEventListener("click", function() {
+    form.style.marginLeft = "0%"
+})
+
+next2.addEventListener("click", function() {
+    form.style.marginLeft = "-9190"
 })
