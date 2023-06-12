@@ -33,15 +33,23 @@ const form = document.getElementById("form")
 const prev1 = document.getElementById("prev1")
 const next2 = document.getElementById("next2")
 
+const prev2 = document.getElementById("prev2")
+const next3 = document.getElementById("next2")
+
+
 
 next1.addEventListener("click", function() {
-    form.style.marginLeft = "-95%"
+    reswidth.style.marginLeft = "-25%"
 })
 
 prev1.addEventListener("click", function() {
-    form.style.marginLeft = "0%"
+    reswidth.style.marginLeft = "0%"
 })
 
 next2.addEventListener("click", function() {
-    form.style.marginLeft = "-9190"
+    reswidth.style.marginLeft = "-50%"
+})
+
+prev2.addEventListener("click", function() {
+    reswidth.style.marginLeft = "-25%"
 })

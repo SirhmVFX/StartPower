@@ -303,10 +303,11 @@ nav{
 
 .resss{
     padding: 4rem;
-    width: 800px;
+    width: 600px;
     background-color: var(--white);
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(34, 34, 34, 0.176);
+    
 }
 
 
@@ -315,12 +316,21 @@ nav{
     margin-bottom: 2rem;
 }
 
+.formdiv{
+    overflow: hidden;
+}
+
 form {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 600px;
-    gap: 2rem;
-    /* overflow: hidden; */
+
+    display: flex;
+    width: 400%;
+    
+    
+}
+
+.page {
+    width: 25%;
+    transition: margin-left 0.4s;
 }
 
 .noof {
