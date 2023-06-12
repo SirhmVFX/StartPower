@@ -41,6 +41,8 @@ const submit = document.getElementById("submit")
 const book = document.getElementById("book")
 const reservation = document.querySelector(".reservation-div")
 
+const back = document.getElementById("backtohome")
+
 
 next1.addEventListener("click", function() {
     reswidth.style.marginLeft = "-25%"
@@ -63,5 +65,9 @@ submit.addEventListener("click", function() {
 })
 
 book.addEventListener("click", function(){
+    reservation.classList.toggle("is-active")
+})
+
+back.addEventListener("click", function() {
     reservation.classList.toggle("is-active")
 })
