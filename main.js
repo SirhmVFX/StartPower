@@ -74,10 +74,12 @@ book.addEventListener("click", function(){
 })
 
 back.addEventListener("click", function() {
+    window.location.reload()
     reservation.classList.toggle("is-active")
 })
 
 svg.addEventListener("click", function() {
+    window.location.reload()
     reservation.classList.toggle("is-active")
 })
 
